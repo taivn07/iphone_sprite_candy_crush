@@ -39,6 +39,8 @@
 		A12888A11949BC6B00931CE0 /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = A128889B1949BC6B00931CE0 /* Ka-Ching.wav */; };
 		A12888A21949BC6B00931CE0 /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A128889C1949BC6B00931CE0 /* Mining by Moonlight.mp3 */; };
 		A12888A31949BC6B00931CE0 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = A128889D1949BC6B00931CE0 /* Scrape.wav */; };
+		A1975B01196254460083A298 /* RWTChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A1975B00196254460083A298 /* RWTChain.m */; };
+		A1975B031963B0040083A298 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A1975B021963B0040083A298 /* Grid.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,9 @@
 		A128889B1949BC6B00931CE0 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ka-Ching.wav"; sourceTree = "<group>"; };
 		A128889C1949BC6B00931CE0 /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
 		A128889D1949BC6B00931CE0 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
+		A1975AFF196254460083A298 /* RWTChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTChain.h; sourceTree = "<group>"; };
+		A1975B00196254460083A298 /* RWTChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTChain.m; sourceTree = "<group>"; };
+		A1975B021963B0040083A298 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +160,7 @@
 		A128884A1947F7C900931CE0 /* CookieCrunch */ = {
 			isa = PBXGroup;
 			children = (
+				A1975B021963B0040083A298 /* Grid.atlas */,
 				A12888971949BC6B00931CE0 /* Sounds */,
 				A128888619481CB600931CE0 /* Levels */,
 				A128887E1947F8AC00931CE0 /* Sprites.atlas */,
@@ -175,6 +181,8 @@
 				A12888841948023E00931CE0 /* RWTLevel.m */,
 				A128889119481D5C00931CE0 /* RWTTile.h */,
 				A128889219481D5C00931CE0 /* RWTTile.m */,
+				A1975AFF196254460083A298 /* RWTChain.h */,
+				A1975B00196254460083A298 /* RWTChain.m */,
 			);
 			path = CookieCrunch;
 			sourceTree = "<group>";
@@ -313,6 +321,7 @@
 				A128884F1947F7C900931CE0 /* InfoPlist.strings in Resources */,
 				A128889F1949BC6B00931CE0 /* Drip.wav in Resources */,
 				A128889019481CB600931CE0 /* Level_4.json in Resources */,
+				A1975B031963B0040083A298 /* Grid.atlas in Resources */,
 				A12888A01949BC6B00931CE0 /* Error.wav in Resources */,
 				A128888E19481CB600931CE0 /* Level_2.json in Resources */,
 				A12888A31949BC6B00931CE0 /* Scrape.wav in Resources */,
@@ -348,6 +357,7 @@
 				A128885B1947F7C900931CE0 /* RWTViewController.m in Sources */,
 				A12888551947F7C900931CE0 /* RWTAppDelegate.m in Sources */,
 				A1288896194951A900931CE0 /* RWTSwap.m in Sources */,
+				A1975B01196254460083A298 /* RWTChain.m in Sources */,
 				A128889319481D5C00931CE0 /* RWTTile.m in Sources */,
 				A12888821947FE0C00931CE0 /* RWTCookie.m in Sources */,
 				A12888511947F7C900931CE0 /* main.m in Sources */,
